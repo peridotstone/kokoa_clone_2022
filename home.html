@@ -5,12 +5,29 @@
   </head>
   <body>
     <form>
-      <input type="file" accept="image/*" />
-      <input required placeholder="Name" type="text" />
+      <label for="site">url</label>
+      <input id="site" required placeholder="website" type="url" />
+
+      <input type="submit" value="submit" />
+
+      <!-- 
+        
+       id는 tag를 구별해주는 식별자 CSS에서 개별 tag를 찾아가는 역할을 함
+       for attribute로 input을 지정할 수 있다.  
+      
+      -->
+
+      <!-- 
+      <label for="protile">profile photo</label>
+      <input id="protile" type="file" accept="image/*" />
+
+      <label for="First_name">First name</label>
+      <input id="First_name" required placeholder="Name" type="text" />
+
       <input required placeholder="Last Name" type="text" />
       <input required placeholder="UserName" minlength="10" type="text" />
       <input required placeholder="password" type="password" />
-      <input type="submit" value="Create Account" />
+      <input type="submit" value="Create Account" /> -->
 
       <!-- 
         
